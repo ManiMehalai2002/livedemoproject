@@ -1,0 +1,162 @@
+body{
+margin: 0;
+padding: 0;
+overflow-y: hidden;
+
+
+
+}
+.heading{
+    display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.image a{
+    color: #fff !important;
+    font-size: 30px;
+    font-weight: 400;
+}
+.menu a{
+    color: #fff !important;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20px;
+    font-family: DM Sans;
+}
+header{
+    width: 85vw;
+    height: 100vh;
+    background-color: rgba(47, 24, 147, 1);
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+section{
+    width:70%;
+    height: 90%;
+}
+.menubar{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.navbar button{
+    background-color: rgba(233, 58, 125, 1);
+    font-family: DM Sans;
+    color: #fff;
+   width: 120px;
+   height: 40px;
+   border-radius: 100px;
+}
+.container button{
+    font-family: DM Sans;
+    background-color:rgba(233, 58, 125, 1);
+    color: #fff;
+    width: 157px;
+
+    height: 50px;
+    border-radius: 100px;
+
+}
+.fpart h1{
+    padding-top: 120px;
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 58px;
+    font-family: 700;
+    line-height: 70px;
+    letter-spacing: -1px;
+}
+.fpart h5{
+    padding-top: 40px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: DM Sans;
+    line-height: 32px;
+}
+.spart{
+display: flex;
+justify-content: end;
+align-items:end;
+
+
+
+
+   
+}
+.sbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 95%;
+    height: 90%;
+    border-radius: 10px;
+   
+}
+.spart input{
+    margin: 10px 0;
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+}
+.sbox button{
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgba(47, 24, 147, 1);
+    color: #fff;
+    border: none;
+    font-size: 18px;
+}
+.sbox p{
+    margin: 10px 0 ;
+}
+.sbox h2{
+margin: 20px 0;
+font-family: DM Sans;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.4px;
+
+    color:  rgba(30, 14, 98, 1);
+;
+}
+
+.sbox button{
+    margin: 10px 0;
+
+}
+.sbox .brn{
+    margin:0;
+    position: relative;
+    bottom: 50px;
+}
+.sbox h5{
+    margin: 10px 0;
+    position: relative;
+    bottom: 20px;
+
+}
+.fhr{
+    width: 150px;
+    height: 5px;
+    background-color: black;
+    position: relative;
+ right: 78px;
+    bottom: 35px;
+}
+.shr{
+    width: 150px;
+    height: 5px;
+    background-color: black;
+    position: relative;
+ left: 86px;
+    bottom: 67px;
+}
+
+
